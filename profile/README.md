@@ -19,6 +19,14 @@ Our project is divided into three core components that work seamlessly together:
 2.  **Slave**: Custom STM32 firmware/hardware acting as a low-level controller/control command executor.
 3.  **Configuration**: A web-based tool to generate configuration files, dynamically setting up the task list for slaves.
 
+## Repo Structure
+
+* [ROS 2 Master Node](https://github.com/AIMEtherCAT/EcatV2_Master)
+* [Configuration Generator](https://github.com/AIMEtherCAT/TaskEditor)
+* [Hardware Designs](https://github.com/AIMEtherCAT/EasyCAT_Board)
+* Slave Board Firmwares
+  * [AX58100+H750](https://github.com/AIMEtherCAT/EcatV2_AX58100_H750_Universal)
+
 ## Typical Workflow
 
 To build a robot using our communication interface, simply follow this workflow:
