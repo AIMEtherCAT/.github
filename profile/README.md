@@ -8,10 +8,8 @@ We aim to provide an efficient way to quickly test and verify control algorithms
 
 Since this framework provides ROS2 topic interfaces, you can not only use your custom nodes to do the control, but also use MATLAB Simulink ROS2 Toolbox to write all the control algorithms in the Simulink!
 
-~~(机械调车再也不是梦，自己画的车就该自己调)~~
-
-> [!IMPORTANT]
-> The master and slave code repositories will be made public soon. We are conducting final testing to ensure it works smoothly without any hidden bugs.
+> [!TIP]
+> ~~(机械调车再也不是梦，自己画的车就该自己调)~~
 
 ## Project Architecture
 
